@@ -46,5 +46,5 @@ def delete_workspaces_from_excel(api_key, excel_file_path, retries=3, delay=5):
 
 if __name__ == "__main__":
     api_key = "apikey"  # Postman API key goes here
-    excel_file_path = "WorkspaceDeleteTestdata.xlsx"
+    excel_file_path = "WorkspaceDeleteData.xlsx"
     delete_workspaces_from_excel(api_key, excel_file_path)

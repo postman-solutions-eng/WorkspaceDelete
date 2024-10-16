@@ -30,7 +30,7 @@ To delete workspaces via the Postman API, you need your Postman API key. Follow 
 
 The script reads workspace IDs from an Excel file. Make sure your file contains a column named `destinationId` with the Postman workspace IDs you want to delete.
 
-Example file structure (`WorkspaceDeleteTestdata.xlsx`):
+Example file structure (`WorkspaceDeleteData.xlsx`):
 
 | destinationId       |
 |---------------------|
@@ -51,7 +51,7 @@ In the `delete_workspaces_from_excel` function, update the following parameters:
 2. **Excel File Path**: Update the `excel_file_path` variable with the path to your Excel file containing the workspace IDs.
 
    ```python
-   excel_file_path = "WorkspaceDeleteTestdata.xlsx"
+   excel_file_path = "WorkspaceDeleteData.xlsx"
    ```
 
 You can also adjust the retry behavior:
