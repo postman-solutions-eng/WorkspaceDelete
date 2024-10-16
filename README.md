@@ -14,8 +14,10 @@ This script is designed to **delete multiple Postman workspaces** using the Post
 
 ### 1. Install Required Libraries
 
-You can install the required Python libraries using pip:```bash
-pip install pandas requests openpyxl
+You can install the required Python libraries using pip:
+
+**pip install pandas requests openpyxl**
+
 
 ### 2. Get Your Postman API Key
 
